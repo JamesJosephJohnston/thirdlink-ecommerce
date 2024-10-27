@@ -21,7 +21,7 @@ const HomePage = () => {
       <p className="mb-8">
         Our top selection of winter supplements is curated to keep you in peak health. From Vitamin D3 to boost your mood, to Elderberry for immune support, and Omega-3s for overall wellness—each product is carefully chosen to give your body the exact boost it needs during winter. Stay healthy, stay happy, and enjoy the winter season at your best!
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12">
         {supplements.map((supplement, index) => (
           <Card
             key={index}
